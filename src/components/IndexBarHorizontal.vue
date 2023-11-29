@@ -36,10 +36,6 @@ const getCategoryProducts = category => props.data.filter(p => p.category === ca
 </template>
 
 <style lang="scss">
-.index-bar {
-  //position: relative;
-}
-
 .van-index-anchor {
   color: white;
   font-weight: bold;
